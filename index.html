@@ -7,72 +7,91 @@
 </head>
 <body>
 
-<div class="page-header">
-	<img src="img/dbdeploy_color.png"/>
-</div>
+<div class="container">
 
-<div class="row">
-	<div class="row-fluid">
-		<h1>What is it?</h1>
+	<div class="masthead">
+		<ul class="nav nav-pills pull-right">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="https://code.google.com/p/dbdeploy/downloads/detail?name=dbdeploy-dist-3.0M3-distribution.zip">Download</a>
+			</li>
+			<li><a href="howtouse.html">How to use it</a></li>
+		</ul>
 	</div>
-	<div class="row-fluid">
-		<p>dbdeploy is a Database Change Management tool. It's for developers or
-			DBAs who want to evolve their database design &ndash; or refactor their
-			database &ndash; in a simple, controlled, flexible and frequent manner.</p>
+
+	<div class="page-header">
+		<img src="img/dbdeploy_color.png"/>
 	</div>
-</div>
+
+	<div class="row">
+		<div class="row-fluid">
+			<h1>What is it?</h1>
+		</div>
+		<div class="row-fluid">
+			<p>dbdeploy is a Database Change Management tool. It's for developers or
+				DBAs who want to evolve their database design &ndash; or refactor their
+				database &ndash; in a simple, controlled, flexible and frequent manner.</p>
+		</div>
+	</div>
 
 
-<div class="row">
-	<div class="row-fluid">
-		<h1>Why do I need it?</h1>
+	<div class="row">
+		<div class="row-fluid">
+			<h1>Why do I need it?</h1>
+		</div>
+		<div class="row-fluid">
+			<p>The recurring problem with database development is that at some point
+				you'll need to upgrade an existing database and preserve its content.
+				In development environments it's often possible (even desirable) to
+				blow away the database and rebuild from scratch as often as the code
+				is rebuilt but this approach cannot be taken forward into more
+				controlled environments such as QA, UAT and Production.</p>
+		</div>
 	</div>
-	<div class="row-fluid">
-		<p>The recurring problem with database development is that at some point
-			you'll need to upgrade an existing database and preserve its content.
-			In development environments it's often possible (even desirable) to
-			blow away the database and rebuild from scratch as often as the code
-			is rebuilt but this approach cannot be taken forward into more
-			controlled environments such as QA, UAT and Production.</p>
-	</div>
-</div>
 
-<div class="row">
-	<div class="row-fluid">
-		<h1>How do I use it?</h1>
-	</div>
-	<div class="row-fluid">
-		<p>Drawing from our experiences, we've found that one of the easiest ways
-			to allow people to change the database is by using version-controlled
-			SQL delta scripts. We've also found it beneficial to ensure that the
-			scripts used to build development environments are the exact same used
-			in QA, UAT and production. Maintaining and making use of these deltas can
-			quickly become a significant overhead &ndash; dbdeploy aims to address this.</p>
-	</div>
-</div>
+	<div class="row">
+		<div class="row-fluid">
+			<h1>How do I use it?</h1>
+		</div>
+		<div class="row-fluid">
+			<p>Drawing from our experiences, we've found that one of the easiest ways
+				to allow people to change the database is by using version-controlled
+				SQL delta scripts. We've also found it beneficial to ensure that the
+				scripts used to build development environments are the exact same scripts used
+				in QA, UAT and production. Maintaining and making use of these deltas can
+				quickly become a significant overhead &ndash; dbdeploy aims to address this.</p>
 
-<div class="row">
-	<div class="row-fluid">
-		<h1>Wait...WHAT? A new website?</h1>
+			<p>dbdeploy automatically keeps track of which delta scripts have been applied to
+				your databases, and helps you incrementally change your database over time
+				without having to resort to big-bang approaches</p>
+		</div>
 	</div>
-	<div class="row-fluid">
-		<p>Don't understand what's going on? There are some new people interested in moving
-			this project forward, so the first thing we're doing is creating a new website.</p>
-	</div>
-</div>
 
-<div class="row">
-	<div class="row-fluid">
-		<h1>Now what?</h1>
-	</div>
-	<div class="row-fluid">
-		<p>Watch this space!  Over the next couple of months (as of April 2013), we will
-			start adding things &ndash; both to this website, and to the project itself!</p>
-	</div>
-</div>
+	<div class="row">
+		<div class="row-fluid">
+			<h1>Wait...WHAT? A new website?</h1>
+		</div>
+		<div class="row-fluid">
+			<p>Yes, indeed! There are some new people interested in moving this project forward,
+				so the first thing we're doing is creating a new website.</p>
 
-<div class="row">
-	<div class="row-fluid"><span class="small">&mdash; MV &amp; SN</span></div>
+			<p>New builds are coming soon!</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="row-fluid">
+			<h1>Now what?</h1>
+		</div>
+		<div class="row-fluid">
+			<p>Watch this space! Over the next couple of months (as of April 2013), we will
+				start adding things &ndash; both to this website, and to the project itself!</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="row-fluid"><span class="small">&mdash; MV &amp; SN</span></div>
+	</div>
+
 </div>
 
 </body>
