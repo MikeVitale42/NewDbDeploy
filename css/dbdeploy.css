@@ -174,3 +174,7 @@ input[type="password"] {
 	vertical-align: text-bottom;
 	margin-left: 0;
 }
+
+.small {
+	font-size: smaller;
+}
