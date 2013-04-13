@@ -1,0 +1,176 @@
+body {
+	margin-top: 20px;
+	padding: 20px;
+}
+
+body .modal {
+	width: 450px;
+	margin: -195px 0 0 -225px;
+}
+
+h1 {
+	padding-bottom: 5px;
+}
+
+.btn {
+	vertical-align: middle;
+}
+
+.btn-group {
+	vertical-align: middle;
+}
+
+.btn-esrc {
+	color: #000;
+	background-color: #ffff00;
+	*background-color: #ffff00;
+	background-image: -ms-linear-gradient(top, #ffff00, #ffff00);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffff00), to(#ffff00));
+	background-image: -webkit-linear-gradient(top, #ffff00, #ffff00);
+	background-image: -o-linear-gradient(top, #ffff00, #ffff00);
+	background-image: linear-gradient(top, #ffff00, #ffff00);
+	background-image: -moz-linear-gradient(top, #ffff00, #ffff00);
+	background-repeat: repeat-x;
+	border: 1px solid #ffff00;
+	*border: 0;
+
+	border-color: #ffff00 #ffff00 #ffff00;
+	border-bottom-color: #ffff00;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	cursor: default;
+}
+
+.btn-esrc:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: #ffff00;
+	*background-color: #ffff00;
+	/* Buttons in IE7 don't get borders, so darken on hover */
+	background-position: 0 0px;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.btn-esrc:focus {
+	outline: none;
+	outline: none;
+	outline-offset: 0px;
+}
+
+.btn-esrc:active {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.nav-header {
+	color: #000;
+}
+
+.nav-list a {
+	color: #000 !important;
+}
+
+.nav-list .active a {
+	background-color: #ff0 !important;
+	color: #000 !important;
+}
+
+input[type="text"],
+input[type="password"] {
+	height: 25px;
+	padding: 4px;
+}
+
+.left-align {
+	text-align: left !important;
+}
+
+.logo {
+	margin-bottom: 10px;
+}
+
+.welcome {
+	padding-top: 10px;
+}
+
+.logout {
+	margin-top: 25px;
+}
+
+.unregisteredUser {
+	padding: 5px;
+}
+
+.criteria {
+	margin-bottom : 15px;
+}
+
+.error {
+	background-color: pink;
+	color: red;
+	border: 1px solid red;
+	padding: 5px;
+	margin-top: 50px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.required {
+	background-color: lightblue;
+	color: blue;
+	border: 1px solid blue;
+	margin: 2px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.success {
+	background : #e6efc2;
+	color : #264409;
+	border-color: #c6d880;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.footer {
+	font-size: 10pt;
+	color: #C4C4C4;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.mavelous {
+	color: #ce6300;
+	background-color: #fff;
+	padding: 3px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.mavelous:hover {
+	color: #fff;
+	background-color: #ce6300;
+	padding: 3px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.row {
+	display : block;
+	vertical-align: text-bottom;
+	margin-left: 0;
+}
